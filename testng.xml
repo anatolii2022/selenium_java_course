@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<test thread-count="5" name="Personal Loan">
+		<classes>
+			<class name="com.udemy.selenium.testngtutorial.Lesson001" />
+			<class name="com.udemy.selenium.testngtutorial.Lesson0011"></class>
+			<class name="com.udemy.selenium.testngtutorial.Lesson0013">
+			<methods>
+			<exclude name="mobile.*"></exclude>
+			</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Car Loan">
+		<classes>
+			<class name="com.udemy.selenium.testngtutorial.Lesson0012">
+				<methods>
+					<exclude name="API.*"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

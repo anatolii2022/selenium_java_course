@@ -1,0 +1,15 @@
+userName:
+accessKey:
+framework: testng
+platforms:
+ - os: Windows
+   osVersion: 11
+   browserName: Chrome
+   browserVersion: 117
+ - os: Windows
+   osVersion: 10
+   browserName: FirFox
+   browserVersion: 103
+parallelsPerPlatform: 1
+browserstackLocal: true
+
